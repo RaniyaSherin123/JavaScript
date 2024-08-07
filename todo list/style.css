@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(pink,lightblue,white,lightblue,pink);
+    height: 100vh;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+h1{
+    
+    font-size: 2rem;
+    text-align: center;
+    color:rgb(81, 80, 80);
+    margin: 5px;
+    
+
+}
+.form{
+    width: 20%;
+    height: 5%;
+    font-size: 2rem;
+}
+.form input{
+    width: 100%;
+    height: 40px;
+    color: rgb(37, 46, 56);
+    font-size: 1.8rem;
+    border: 1 px solid grey;
+    outline: none;
+    margin-top: 10px;margin-bottom: 10px;
+    bottom: 2px solid dodgerblue;
+
+}
+.todo con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.todolist{
+    width: 30%;
+    list-style: none;
+    
+}
+
